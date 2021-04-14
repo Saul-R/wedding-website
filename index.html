@@ -300,11 +300,11 @@
 
 <section id="video-bg" class="hidden-sm hidden-xs">
     <div id="bgndVideo" class="player"
-         data-property="{videoURL:'https://youtu.be/9giqL1H6yRs',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
+         data-property="{videoURL:'https://youtu.be/DWpX2AcYz-Q',containment:'#video-bg',autoPlay:true, mute:true, showControls:false, startAt:80, stopAt:259, opacity:1}">
     </div>
     <div id="video-content">
-        <h5>Kolkata</h5>
-        <p>City of joy</p>
+        <h5>Segovia</h5>
+        <p>Molino del Feo</p>
     </div>
 </section>
 
@@ -325,25 +325,26 @@
                 <div id="map-content" class="pointer-events-auto">
                     <div class="row">
                         <div class="col-md-6">
-                            <h5>ITC Fortune Park</h5>
-                            <p>Kona Expressway, Howrah, West Bengal 711403, India</p>
+                            <h5>Molino del Feo</h5>
+                            <p>Camino de Prádena, s/n, 40165, Segovia, Spain</p>
                         </div>
                         <div class="col-md-6">
-                            <h5>Mr. Amit Roy</h5>
-                            <p><i class="fa fa-mobile"></i> <a href="tel://+919412345678">+91 9412345678</a><br>
-                                <i class="fa fa-mobile"></i> <a href="tel://+917123456789">+91 7123456789</a></p>
+                            <h5>Taxistas de la zona</h5>
+                            <p><i class="fa fa-mobile"></i> <a href="tel://+34659878541">Carlos (Buitrago)</a><br>
+                                <i class="fa fa-mobile"></i> <a href="tel://+34659622766">Fermin (Sepúlveda)</a><br>
+                                <i class="fa fa-mobile"></i> <a href="tel://+34659622766">Victor (Cantalejo)</a>
+                            </p>
                         </div>
                     </div>
                     <div class="row text-center">
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-fill btn-small"
-                               href="https://m.uber.com/ul/?action=setPickup&client_id=Yh7Dl6SjB56RY2JuuZF8ttVa6ryFV78W&pickup=my_location&dropoff[formatted_address]=Fortune%20Park%20Panchwati%20-%20Hotels%20in%20Kolkata%2C%20Howrah%2C%20West%20Bengal%2C%20India&dropoff[latitude]=22.593276&dropoff[longitude]=88.270277"><i
-                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Book Uber</a>
-                        </div>
-                        <div class="col-md-6" style="padding: 5px;">
-                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;&nbsp;Show
-                                map</a>
-                        </div>
+<!--                        <div class="col-md-6" style="padding: 5px;">-->
+<!--                            <a class="btn btn-fill btn-small"-->
+<!--                               href="659878541"><i-->
+<!--                                    class="fa fa-taxi"></i>&nbsp;&nbsp;Tlf. Taxi</a>-->
+<!--                        </div>-->
+<!--                        <div class="col-md-6" style="padding: 5px;">-->
+                            <a class="btn btn-accent btn-small" id="btn-show-map"><i class="fa fa-map-marker"></i>&nbsp;Mapa </a>
+<!--                        </div>-->
                     </div>
                 </div>
             </div>
@@ -372,8 +373,8 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
-                <h3>What are you waiting for?</h3>
-                <p>We would greatly appreciate if you could RSVP before 1st of November '17</p>
+                <h3>A qué esperas?</h3>
+                <p>Por favor rellena el RSVP antes del 1 Agosto de 2021</p>
                 <form id="rsvp-form" class="rsvp-form"
                       action=""
                       method="POST">
@@ -387,8 +388,8 @@
                         </div>
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-user"></i><input name="name" class=""
-                                                                 placeholder="Your name"
+                                <i class="fa fa-user"></i><input name="nombre" class=""
+                                                                 placeholder="Tu nombre"
                                                                  required>
                             </div>
                         </div>
@@ -396,9 +397,9 @@
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
-                                <i class="fa fa-users"></i><input type="number" name="extras" class="" min="0"
-                                                                  max="4"
-                                                                  placeholder="Husband/Wife or kids"
+                                <i class="fa fa-users"></i><input type="number" name="acompañante" class="" min="0"
+                                                                  max="1"
+                                                                  placeholder="Acompañantes"
                                                                   required>
                             </div>
                         </div>
@@ -406,7 +407,7 @@
                             <div class="form-input-group">
                                 <i class="fa fa-key"></i><input type="number" name="invite_code" id="invite_code"
                                                                 class="" min="0"
-                                                                placeholder="Invite code"
+                                                                placeholder="Codigo de invitacion"
                                                                 required>
                             </div>
                         </div>
@@ -415,8 +416,7 @@
                         <div class="col-md-12" id="alert-wrapper"></div>
                     </div>
                     <button class="btn-fill rsvp-btn">
-                        Yes,
-                        that's me!
+                        Ese soy yo!
                     </button>
                 </form>
             </div>
@@ -445,7 +445,7 @@
 <script src="js/vendor/ouical.js"></script>
 <script src="js/scripts.min.js"></script>
 <script async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlPw3GQYI3faa_9mRE6plWuM7xNEmrwH0&callback=initMap"></script>
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCl56XUD_PJABwBI2_OVpyyrYs0ERKbPSA&callback=initMap"></script>
 <!-- Google Analytics -->
 <script>
     (function (i, s, o, g, r, a, m) {
